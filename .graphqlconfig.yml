@@ -1,0 +1,12 @@
+projects:
+  amplify503:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - my
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: .
